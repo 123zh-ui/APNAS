@@ -1,0 +1,13 @@
+# This is the minimal config file for an NNI experiment.
+# Use "nnictl create --config config.yml" to launch this experiment.
+# Afterwards, you can check "config_detailed.yml" for more explanation.
+searchSpaceFile: search_space.json
+trialCommand: python train_imagenet.py  # NOTE: change "python3" to "python" if you are using Windows
+experimentWorkingDirectory: nni-experiments # NNI记录实验日志的目录
+trialConcurrency: 1
+tuner: # 指定调参算法
+  name: TPE
+  classArgs:
+    optimize_mode: minimize
+trainingService: # 本地运行
+  platform: local
