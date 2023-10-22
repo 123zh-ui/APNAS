@@ -32,6 +32,7 @@ bb2 = Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 0), ('sep_conv_3x3'
 ## Evaluate
 
 ```python
+# 在Evaluate_imagenet目录下执行该命令
 nnictl create --config config.yml -p 10025
 ```
 
