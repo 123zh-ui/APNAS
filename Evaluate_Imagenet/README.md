@@ -34,6 +34,8 @@ bb2 = Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 0), ('sep_conv_3x3'
 ```python
 # 在Evaluate_imagenet目录下执行该命令
 nnictl create --config config.yml -p 10025
+
+# -p 表示端口号，可随意选择一个可用的端口号
 ```
 
 
