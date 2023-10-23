@@ -14,7 +14,7 @@ import torch.utils
 import torchvision.datasets as dset
 import torchvision.transforms as transforms
 import torch.backends.cudnn as cudnn
-import nni 
+#import nni 
 from torch.autograd import Variable
 from model import NetworkImageNet as Network
 from PIL import ImageFile
