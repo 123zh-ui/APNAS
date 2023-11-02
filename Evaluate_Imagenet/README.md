@@ -35,7 +35,8 @@ bb2 = Genotype(normal=[('dil_conv_3x3', 0), ('sep_conv_3x3', 0), ('sep_conv_3x3'
 # 在Evaluate_imagenet目录下执行该命令
 python train_imagenet.py --arch 5
 
-# arch表示需要评估架构对应的编号，这里总共有PCdarts = ['bb1','bb2','bb3_imagenet','bb4_IM_acc76','bb5_IM_acc75','bb6_imagenet_f','bb7_imagenet_f']
+# arch表示需要评估架构对应的编号，这里总共有PCdarts = ['bb1','bb2','bb3_imagenet',
+'bb4_IM_acc76','bb5_IM_acc75','bb6_imagenet_f','bb7_imagenet_f']
 ```
 
 
