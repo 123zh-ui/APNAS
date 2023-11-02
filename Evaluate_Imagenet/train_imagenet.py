@@ -19,7 +19,7 @@ from torch.autograd import Variable
 from model import NetworkImageNet as Network
 from PIL import ImageFile
 ImageFile.LOAD_TRUNCATED_IMAGES = True
-PCdarts = ['bb1','bb2','bb3_imagenet','bb4_IM_acc76','bb5_IM_acc75']
+PCdarts = ['bb1','bb2','bb3_imagenet','bb4_IM_acc76','bb5_IM_acc75','bb6_imagenet_f','bb7_imagenet_f']
 
 logger = logging.getLogger('mnist_AutoML')
 #nnictl create --config config.yml -p 10025
